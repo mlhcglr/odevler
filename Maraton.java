@@ -17,10 +17,9 @@ public class Maraton {
         }
         System.out.println("Derece yapan öğrenciler:");
         for (int i = 0; i < 3; i++) {
-            System.out.println(ogrenciIsimleri[i] + ": " + ogrencisureleri[i]);
+            System.out.println(ogrenciIsimleri[i] + ": " + ogrencisureleri[i]+"'");
         }
-        int ikinciEnIyiZaman = ogrencisureleri[1];
-        System.out.println("\nİkinci koşucunun zamanı: " + ikinciEnIyiZaman);
+       
         Map<Character, Integer> sinifsayisi = ogrencisınıfı(ogrencisureleri);
         System.out.println("\nSınıflandırma:");
         for (char key : sinifsayisi.keySet()) {
