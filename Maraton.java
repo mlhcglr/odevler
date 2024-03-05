@@ -23,7 +23,7 @@ public class Maraton {
         Map<Character, Integer> sinifsayisi = ogrencisınıfı(ogrencisureleri);
         System.out.println("\nSınıflandırma:");
         for (char key : sinifsayisi.keySet()) {
-            System.out.println(key + " sınıfı: " + sinifsayisi.get(key));
+            System.out.println(key + " ->" + sinifsayisi.get(key));
         }
     }
     public static Map<Character, Integer> ogrencisınıfı(int[] sureler) {
